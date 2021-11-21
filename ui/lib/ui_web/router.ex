@@ -38,6 +38,7 @@ defmodule UiWeb.Router do
     scope "/" do
       pipe_through :browser
       live_dashboard "/dashboard", metrics: UiWeb.Telemetry
+      forward "/video.mjpg", Ui.Streamer
     end
   end
 end

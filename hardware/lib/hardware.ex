@@ -1,6 +1,6 @@
-defmodule Firmware do
+defmodule Hardware do
   @moduledoc """
-  Documentation for Firmware.
+  Documentation for `Hardware`.
   """
 
   @doc """
@@ -8,11 +8,11 @@ defmodule Firmware do
 
   ## Examples
 
-      iex> Firmware.hello
+      iex> Hardware.hello()
       :world
 
   """
   def hello do
-    :world_sv
+    :world
   end
 end
